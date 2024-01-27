@@ -1,0 +1,41 @@
+<!-- item_riwayat.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded"
+    android:orientation="vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="10dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Diagnosa"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textKerusakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kerusakan"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textFormattedBayes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formatted Bayes"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textSolker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solker"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

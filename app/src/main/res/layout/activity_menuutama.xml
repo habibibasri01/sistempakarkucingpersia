@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenukucing"
+    tools:context=".menuutama">
+
+    <Button
+        android:id="@+id/diagnosa"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="DIAGNOSA"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/penyakit"
+        android:layout_marginTop="10dp"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="JENIS PENYAKIT"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/riwayat"
+        android:layout_marginTop="10dp"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="RIWAYAT"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/tentang"
+        android:layout_marginTop="10dp"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="TENTANG"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenukucing"
+    tools:context=".penyakit">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/baseline_arrow_back_24"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JENIS PENYAKIT"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular"/>
+
+    <Button
+        android:id="@+id/flu"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#DBCECE"
+        android:text="Flu Kucing"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/femilie"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#DBCECE"
+        android:text="Femilie Infectious Peritonitis"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/panleukopenia"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="Panleukopenia"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+    <Button
+        android:id="@+id/cacingan"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#DBCECE"
+        android:text="Cacingan"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inriaegular" />
+
+        <Button
+            android:id="@+id/scabies"
+            android:layout_marginTop="5dp"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#DBCECE"
+            android:text="Scabies"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inriaegular" />
+
+        <Button
+            android:id="@+id/diare"
+            android:layout_marginTop="5dp"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#DBCECE"
+            android:text="Diare"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inriaegular" />
+
+    </LinearLayout>
+</LinearLayout>
